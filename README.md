@@ -10,9 +10,10 @@ The AI Perfume Inventory App is a Power App that leverages AI Builder to detect 
 ![alt text](assets/favorites.PNG)
 ![alt text](assets/aboutNotes.PNG)
 ![alt text](assets/totalInventory.PNG)
+
+
+SharePoint list:
 ![alt text](assets/spoList.PNG)
-
-
 
 
 
@@ -27,7 +28,7 @@ The AI Perfume Inventory App is a Power App that leverages AI Builder to detect 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-repo/ai-perfume-inventory-app.git
+    git clone https://github.com/gretchunkim/ai-perfume-inventory-app.git
     ```
 
 2. **Open in Power Apps**:
@@ -40,12 +41,12 @@ The AI Perfume Inventory App is a Power App that leverages AI Builder to detect 
 
 4. **Run the App**:
     - Launch the app in Power Apps.
-    - Use the camera to scan perfume bottles and see the extracted information.
+    - Use the camera to scan perfume bottles or upload existing photo information and press "Save" to see the extracted information and save it to a SharePoint list.
 
 ## Requirements
 
 - Power Apps Premium license
 - AI Builder license
 - Camera-enabled device
-- SharePoint list for storing inventory data
+- SharePoint list for storing inventory data (Ensure to match SHarePoint list column names with the app's data)
 
