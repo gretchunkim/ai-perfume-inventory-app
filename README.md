@@ -43,10 +43,24 @@ SharePoint list:
     - Launch the app in Power Apps.
     - Use the camera to scan perfume bottles or upload existing photo information and press "Save" to see the extracted information and save it to a SharePoint list.
 
+
+
 ## Requirements
 
 - Power Apps Premium license
 - AI Builder license
-- Camera-enabled device
-- SharePoint list for storing inventory data (Ensure to match SHarePoint list column names with the app's data)
+- Camera-enabled device or photo of the perfume to inventory
+- SharePoint list for storing inventory data (Ensure to match SharePoint list (PerfumeBot) with columns:
+
+Column Internal Name|Type|Required| comments
+--------------------|----|--------|----------
+Title | Text|  yes | Name of the perfume
+Company | Text | yes|
+TopNotes | Text | no | 
+HeartNotes | Text | no
+BaseNotes | Text | no
+Season | Text | no| 
+ShoppingList | Text | no |Yes or No
+Favorite | Text |no|Yes or No
+
 
